@@ -23,7 +23,7 @@ An `Object` may be one of the following:
 
 The API is called using the following format
 
-`LeagueManager::Object.get({:method => NAME_OF_METHOD :id => OPTIONAL})`
+`LeagueManager::Object.get({:method => NAME_OF_METHOD, :id => OPTIONAL, :ANOTHER_OPTION => X})`
 
 ### LeagueManager::Division
 
@@ -32,4 +32,4 @@ Division has the following methods available:
 * `recent_results`
 * `standings`
 * `suspensions`
-* `top_goalscorers`
+* `top_goalscorers` - accepts an optional :limit parameter

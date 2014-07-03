@@ -43,9 +43,18 @@ describe LeagueManager::Division do
     end
 
     context '#top_goalscorers' do
-      it 'returns the list of top goalscorers for a given division' do
-        result = LeagueManager::Division.get({:method => "top_goalscorers", :id => "1"})
-        expect(result.first.member.name).to eq("Lopez, Hernan")
+      context 'no limit' do
+        it 'fetches the top 10 goalscorers' do
+          result = LeagueManager::Division.get({:method => "top_goalscorers", :id => "1"})
+          expect(result.first.member.name).to eq("Lopez, Hernan")
+        end
+      end
+
+      context 'limited to 5' do
+        it 'fetches the top 5 goalscorers' do
+          result = LeagueManager::Division.get({:method => "top_goalscorers", :id => "1", :limit => 5})
+          expect(result.size).to eq(5)
+        end
       end
     end
 

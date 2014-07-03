@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/divisions/1/top_goalscorers?api_key=dev&limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"6e678be3bf3a62d57bba76d181f67953"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5aa54bb0f73ba21e714fbc9aa036818e
+      X-Runtime:
+      - '0.241932'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"players":[{"player":{"id":234,"goals":27,"member":{"id":5613,"name":"Lopez,
+        Hernan"},"team":{"id":1,"name":"La c de Tuma"}}},{"player":{"id":2,"goals":16,"member":{"id":5424,"name":"Diego,
+        Amodei"},"team":{"id":11,"name":"Duo Compari"}}},{"player":{"id":155,"goals":15,"member":{"id":1388,"name":"Sultani,
+        Jamal"},"team":{"id":4,"name":"AFG"}}},{"player":{"id":159,"goals":14,"member":{"id":5537,"name":"Latifi,
+        Yosef"},"team":{"id":4,"name":"AFG"}}},{"player":{"id":127,"goals":12,"member":{"id":5503,"name":"Hondres,
+        Giancarlo"},"team":{"id":1,"name":"La c de Tuma"}}}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jul 2014 02:09:10 GMT
+recorded_with: VCR 2.9.2

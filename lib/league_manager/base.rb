@@ -8,9 +8,9 @@ module LeagueManager
         client = LeagueManager::Client.new(:endpoint => "127.0.0.1:3001", :api_key => "dev")
         url = "#{options[:method]}"
         url = "#{options[:id]}/#{options[:method]}" if options[:id]
-
-        options = {:resource => "#{controller_name}/#{url}"}
-        result = client.get( options )
+        options.except!(:method, :id)
+        request_options = {:resource => "#{controller_name}/#{url}", :params => options}
+        result = client.get( request_options )
       end
 
       def controller_name
