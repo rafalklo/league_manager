@@ -21,7 +21,10 @@ module LeagueManager
       begin
         result  = RestClient.get(build_query_string(options), build_query_params(options[:params]))
         results = ResultSet.from_json( result )
-      rescue
+      rescue NameError => e
+        puts "Missing a model class: #{e}"
+      rescue Exception => e
+        ap e
         ap "Error"
       end
     end

@@ -13,6 +13,7 @@ require 'league_manager/member'
 require 'league_manager/player'
 require 'league_manager/schedule'
 require 'league_manager/standing'
+require 'league_manager/suspension'
 require 'league_manager/team'
 
 module LeagueManager

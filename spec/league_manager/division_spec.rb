@@ -40,6 +40,13 @@ describe LeagueManager::Division do
       end
     end
 
+    context '#suspensions' do
+      it 'fetches active suspensions' do
+        result = LeagueManager::Division.get({:method => "suspensions", :id => "1"})
+        expect(result.first.member.name).to eq("Mark, Ruscitto")
+      end
+    end
+
   end
 
 end
