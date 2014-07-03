@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/rafalklo/league_manager.png)](https://codeclimate.com/github/rafalklo/league_manager)
+
 League manager API
 ==================
 
