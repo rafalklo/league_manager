@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/divisions/1/playoffs_results?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"9d71e0475f96c636a1965aa4c464de03"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4bf9ad75bf0390d29dc2c7d7b8c71467
+      X-Runtime:
+      - '0.519643'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"schedules":[{"schedule":{"id":129,"home_team_name":"Balkan Mtl","home_score":1,"away_team_name":"Duo
+        Compari","away_score":2,"game_defaulted":false,"game_date":"2013-08-29","game_time":"2000-01-01T22:00:00Z","home_id":3,"away_id":11,"is_playoffs":true,"playoffs_category":"finals"}},{"schedule":{"id":123,"home_team_name":"La
+        c de Tuma","home_score":1,"away_team_name":"Balkan Mtl","away_score":2,"game_defaulted":false,"game_date":"2013-08-22","game_time":"2000-01-01T20:00:00Z","home_id":1,"away_id":3,"is_playoffs":true,"playoffs_category":"semi-finals"}},{"schedule":{"id":125,"home_team_name":"AFG","home_score":1,"away_team_name":"Duo
+        Compari","away_score":2,"game_defaulted":false,"game_date":"2013-08-22","game_time":"2000-01-01T21:00:00Z","home_id":4,"away_id":11,"is_playoffs":true,"playoffs_category":"semi-finals"}}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jul 2014 01:58:13 GMT
+recorded_with: VCR 2.9.2

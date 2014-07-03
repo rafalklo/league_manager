@@ -11,10 +11,20 @@ describe LeagueManager::Division do
 
   context '.get', :vcr do
 
-    context '#top_goalscorers' do
-      it 'returns the list of top goalscorers for a given division' do
-        result = LeagueManager::Division.get({:method => "top_goalscorers", :id => "1"})
-        expect(result.first.member.name).to eq("Lopez, Hernan")
+
+
+    context '#playoffs_results' do
+      it 'fetches recent playoffs results' do
+        result = LeagueManager::Division.get({:method => "playoffs_results", :id => "1"})
+        expect(result.first.home_team_name).to eq("Balkan Mtl")
+        expect(result.first.is_playoffs).to eq(true)
+      end
+    end
+
+    context '#recent_results' do
+      it 'returns the recent results of a given division' do
+        result = LeagueManager::Division.get({:method => "recent_results", :id => "1"})
+        expect(result.last.away_team_name).to eq("UTX Soccer")
       end
     end
 
@@ -25,6 +35,20 @@ describe LeagueManager::Division do
       end
     end
 
+    context '#suspensions' do
+      it 'fetches active suspensions' do
+        result = LeagueManager::Division.get({:method => "suspensions", :id => "1"})
+        expect(result.first.member.name).to eq("Mark, Ruscitto")
+      end
+    end
+
+    context '#top_goalscorers' do
+      it 'returns the list of top goalscorers for a given division' do
+        result = LeagueManager::Division.get({:method => "top_goalscorers", :id => "1"})
+        expect(result.first.member.name).to eq("Lopez, Hernan")
+      end
+    end
+
     # context '#index' do
     #   it 'returns the list of active divisions' do
     #     result = LeagueManager::Division.get()
@@ -32,20 +56,6 @@ describe LeagueManager::Division do
     #     expect(result.last.team.name).to eq("UTX Soccer")
     #   end
     # end
-
-    context '#recent_results' do
-      it 'returns the recent results of a given division' do
-        result = LeagueManager::Division.get({:method => "recent_results", :id => "1"})
-        expect(result.last.away_team_name).to eq("UTX Soccer")
-      end
-    end
-
-    context '#suspensions' do
-      it 'fetches active suspensions' do
-        result = LeagueManager::Division.get({:method => "suspensions", :id => "1"})
-        expect(result.first.member.name).to eq("Mark, Ruscitto")
-      end
-    end
 
   end
 

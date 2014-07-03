@@ -28,6 +28,7 @@ The API is called using the following format
 ### LeagueManager::Division
 
 Division has the following methods available:
+* `playoffs_results`
 * `recent_results`
 * `standings`
 * `suspensions`
