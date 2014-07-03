@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/divisions/1/standings?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"6ae4e01166641300450332612aecaf5f"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d9fa594d779ad4fe5b64be072e7baeb5
+      X-Runtime:
+      - '0.361977'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"standings":[{"standing":{"position":1,"games":15,"wins":10,"ties":5,"loses":0,"goals_for":59,"goals_against":22,"points":35,"team":{"id":4,"name":"AFG","color":""}}},{"standing":{"position":2,"games":15,"wins":8,"ties":2,"loses":5,"goals_for":38,"goals_against":41,"points":26,"team":{"id":3,"name":"Balkan
+        Mtl","color":""}}},{"standing":{"position":3,"games":15,"wins":7,"ties":3,"loses":5,"goals_for":53,"goals_against":40,"points":24,"team":{"id":1,"name":"La
+        c de Tuma","color":""}}},{"standing":{"position":4,"games":15,"wins":5,"ties":2,"loses":8,"goals_for":36,"goals_against":42,"points":17,"team":{"id":11,"name":"Duo
+        Compari","color":""}}},{"standing":{"position":5,"games":15,"wins":4,"ties":3,"loses":8,"goals_for":42,"goals_against":52,"points":15,"team":{"id":5,"name":"FC
+        Jeanne Mance","color":""}}},{"standing":{"position":6,"games":15,"wins":3,"ties":2,"loses":10,"goals_for":34,"goals_against":61,"points":11,"team":{"id":6,"name":"UTX
+        Soccer","color":""}}}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jul 2014 00:27:15 GMT
+recorded_with: VCR 2.9.2

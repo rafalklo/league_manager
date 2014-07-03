@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/divisions/1/top_goalscorers?api_key=qwerty
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"2edc2317efccb29a39b8f103db75ff4f"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - da8550f6b1bb0659be4aebb4a0ee4039
+      X-Runtime:
+      - '1.379699'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"players":[{"player":{"id":234,"goals":27,"member":{"id":5613,"name":"Lopez,
+        Hernan"},"team":{"id":1,"name":"La c de Tuma"}}},{"player":{"id":2,"goals":16,"member":{"id":5424,"name":"Diego,
+        Amodei"},"team":{"id":11,"name":"Duo Compari"}}},{"player":{"id":155,"goals":15,"member":{"id":1388,"name":"Sultani,
+        Jamal"},"team":{"id":4,"name":"AFG"}}},{"player":{"id":159,"goals":14,"member":{"id":5537,"name":"Latifi,
+        Yosef"},"team":{"id":4,"name":"AFG"}}},{"player":{"id":127,"goals":12,"member":{"id":5503,"name":"Hondres,
+        Giancarlo"},"team":{"id":1,"name":"La c de Tuma"}}},{"player":{"id":23,"goals":10,"member":{"id":2038,"name":"Mendietta,
+        Philippe"},"team":{"id":6,"name":"UTX Soccer"}}},{"player":{"id":182,"goals":9,"member":{"id":2109,"name":"Markovic,
+        Zlatko"},"team":{"id":3,"name":"Balkan Mtl"}}},{"player":{"id":183,"goals":9,"member":{"id":5561,"name":"Garic,
+        Dusko"},"team":{"id":3,"name":"Balkan Mtl"}}},{"player":{"id":169,"goals":9,"member":{"id":1812,"name":"Guzman,
+        Julian"},"team":{"id":5,"name":"FC Jeanne Mance"}}},{"player":{"id":173,"goals":9,"member":{"id":5551,"name":"Ngom,
+        Abib"},"team":{"id":5,"name":"FC Jeanne Mance"}}}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jul 2014 00:27:14 GMT
+recorded_with: VCR 2.9.2
