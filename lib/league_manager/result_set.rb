@@ -11,12 +11,12 @@ module LeagueManager
       key = data.keys.first
       klass = data[key].class
       if klass == Array
-        @results = []
+        results = []
         data[key].each do |data|
           key = data.keys.first
-          @results << parse_object( data, key )
+          results << parse_object( data, key )
         end
-        @results
+        results
       elsif klass == Hash
         parse_object( data, key )
       else
