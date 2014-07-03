@@ -29,7 +29,8 @@ describe LeagueManager::Division do
     context '#recent_results_with_stats' do
       it 'fetches the extended recent results' do
         result = LeagueManager::Division.get({:method => "recent_results_with_stats", :id => "1"})
-        expect(result.first.name).to eq("Ndaba, Mehluli")
+        expect(result.first.gamesheets.first.name).to eq("Djogo, Boris")
+        expect(result.first.gamesheets.size).to eq(6)
       end
     end
 
