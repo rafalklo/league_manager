@@ -36,4 +36,12 @@ describe LeagueManager::Base do
       expect(object.controller_name).to eq("bases")
     end
   end
+
+  context '.to_s' do
+    it 'provides the hash used to generate the objects' do
+      attrs = {:name => "Rafal", :id => 1}
+      object = LeagueManager::Base.new( attrs )
+      expect(object.to_s).to eq(attrs)
+    end
+  end
 end
