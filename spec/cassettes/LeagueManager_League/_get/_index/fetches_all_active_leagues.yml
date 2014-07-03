@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/leagues/?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"ed6bf22fb024b00200aa24b8240fc55b"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fc2bfe89befef8b69dab96e3fb351d89
+      X-Runtime:
+      - '0.097373'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"leagues":[{"league":{"id":3,"name":"Thursday","active":true,"divisions":[{"division":{"id":6,"name":"Thursday
+        D2","active":true,"schedule_updated_at":null}},{"division":{"id":7,"name":"Thursday
+        D3","active":true,"schedule_updated_at":null}}]}},{"league":{"id":4,"name":"Monday","active":true,"divisions":[{"division":{"id":8,"name":"Monday","active":true,"schedule_updated_at":null}}]}}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jul 2014 02:34:35 GMT
+recorded_with: VCR 2.9.2

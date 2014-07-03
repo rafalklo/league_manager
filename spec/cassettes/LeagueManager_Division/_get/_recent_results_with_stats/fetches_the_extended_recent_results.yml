@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/divisions/1/recent_results_with_stats?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"4699762dcb2beb829874dc0de84c79f2"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4ca2cbb0e7dd621cfe6548952e50e610
+      X-Runtime:
+      - '2.218774'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"schedules":[{"schedule":{"id":115,"home_team_name":"Balkan Mtl","home_score":5,"away_team_name":"La
+        c de Tuma","away_score":2,"game_defaulted":false,"game_date":"2013-08-15","home_id":3,"away_id":1,"gamesheets":[{"gamesheet":{"goals":2,"player_id":233,"yellow":false,"double_yellow":false,"red":false,"name":"Djogo,
+        Boris","team_id":3,"member_id":1487}},{"gamesheet":{"goals":1,"player_id":187,"yellow":false,"double_yellow":false,"red":false,"name":"Stojanovic,
+        Jovan","team_id":3,"member_id":2112}},{"gamesheet":{"goals":1,"player_id":300,"yellow":true,"double_yellow":false,"red":false,"name":"Venegas,
+        Fabio","team_id":1,"member_id":4872}},{"gamesheet":{"goals":1,"player_id":262,"yellow":false,"double_yellow":false,"red":false,"name":"Mutiok,
+        Mario","team_id":3,"member_id":5641}},{"gamesheet":{"goals":1,"player_id":234,"yellow":false,"double_yellow":false,"red":false,"name":"Lopez,
+        Hernan","team_id":1,"member_id":5613}},{"gamesheet":{"goals":1,"player_id":183,"yellow":false,"double_yellow":false,"red":false,"name":"Garic,
+        Dusko","team_id":3,"member_id":5561}}]}},{"schedule":{"id":120,"home_team_name":"Duo
+        Compari","home_score":1,"away_team_name":"AFG","away_score":5,"game_defaulted":false,"game_date":"2013-08-15","home_id":11,"away_id":4,"gamesheets":[{"gamesheet":{"goals":2,"player_id":155,"yellow":false,"double_yellow":false,"red":false,"name":"Sultani,
+        Jamal","team_id":4,"member_id":1388}},{"gamesheet":{"goals":2,"player_id":159,"yellow":false,"double_yellow":false,"red":false,"name":"Latifi,
+        Yosef","team_id":4,"member_id":5537}},{"gamesheet":{"goals":1,"player_id":2,"yellow":false,"double_yellow":false,"red":false,"name":"Diego,
+        Amodei","team_id":11,"member_id":5424}},{"gamesheet":{"goals":1,"player_id":162,"yellow":false,"double_yellow":false,"red":false,"name":"Kidri,
+        Amin","team_id":4,"member_id":5540}},{"gamesheet":{"goals":null,"player_id":14,"yellow":true,"double_yellow":false,"red":false,"name":"Remo,
+        LoRusso","team_id":11,"member_id":5436}},{"gamesheet":{"goals":null,"player_id":10,"yellow":false,"double_yellow":false,"red":true,"name":"Mike,
+        DiIorio","team_id":11,"member_id":5432}}]}},{"schedule":{"id":121,"home_team_name":"FC
+        Jeanne Mance","home_score":3,"away_team_name":"UTX Soccer","away_score":4,"game_defaulted":false,"game_date":"2013-08-15","home_id":5,"away_id":6,"gamesheets":[{"gamesheet":{"goals":2,"player_id":24,"yellow":false,"double_yellow":false,"red":false,"name":"Ndaba,
+        Mehluli","team_id":6,"member_id":2518}},{"gamesheet":{"goals":1,"player_id":173,"yellow":false,"double_yellow":false,"red":false,"name":"Ngom,
+        Abib","team_id":5,"member_id":5551}},{"gamesheet":{"goals":1,"player_id":169,"yellow":false,"double_yellow":false,"red":false,"name":"Guzman,
+        Julian","team_id":5,"member_id":1812}},{"gamesheet":{"goals":1,"player_id":18,"yellow":false,"double_yellow":false,"red":false,"name":"Geropapas,
+        George","team_id":6,"member_id":574}},{"gamesheet":{"goals":1,"player_id":306,"yellow":false,"double_yellow":false,"red":false,"name":"Galezoy,
+        Nich","team_id":5,"member_id":5687}},{"gamesheet":{"goals":1,"player_id":261,"yellow":false,"double_yellow":false,"red":false,"name":"Vasilev,
+        Filip","team_id":6,"member_id":5523}}]}}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jul 2014 02:26:08 GMT
+recorded_with: VCR 2.9.2

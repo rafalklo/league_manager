@@ -9,6 +9,8 @@ require 'league_manager/result_set'
 
 require 'league_manager/base'
 require 'league_manager/division'
+require 'league_manager/gamesheet'
+require 'league_manager/league'
 require 'league_manager/member'
 require 'league_manager/player'
 require 'league_manager/schedule'

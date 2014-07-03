@@ -11,8 +11,6 @@ describe LeagueManager::Division do
 
   context '.get', :vcr do
 
-
-
     context '#playoffs_results' do
       it 'fetches recent playoffs results' do
         result = LeagueManager::Division.get({:method => "playoffs_results", :id => "1"})
@@ -25,6 +23,13 @@ describe LeagueManager::Division do
       it 'returns the recent results of a given division' do
         result = LeagueManager::Division.get({:method => "recent_results", :id => "1"})
         expect(result.last.away_team_name).to eq("UTX Soccer")
+      end
+    end
+
+    context '#recent_results_with_stats' do
+      it 'fetches the extended recent results' do
+        result = LeagueManager::Division.get({:method => "recent_results_with_stats", :id => "1"})
+        expect(result.first.name).to eq("Ndaba, Mehluli")
       end
     end
 

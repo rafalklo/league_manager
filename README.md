@@ -15,11 +15,8 @@ This is a wrapper gem for the league manager service API develped by UTX Web.
 The following methods are exposed by the API.
 
 An `Object` may be one of the following:
-* `LeagueManager::Season`
 * `LeagueManager::Division`
-* `LeagueManager::Team`
-* `LeagueManager::Player`
-* `LeagueManager::Member`
+* `LeagueManager::League`
 
 The API is called using the following format
 
@@ -30,6 +27,13 @@ The API is called using the following format
 Division has the following methods available:
 * `playoffs_results`
 * `recent_results`
+* `recent_results_with_stats`
 * `standings`
 * `suspensions`
 * `top_goalscorers` - accepts an optional :limit parameter
+
+### LeagueManager::League
+League has the following methods available:
+* `index` - don't specify any params OR :method => ""
+
+

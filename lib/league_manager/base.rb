@@ -4,7 +4,6 @@ module LeagueManager
 
     class << self 
       def get options = {}
-        options[:method] = "index" unless options[:method]
         client = LeagueManager::Client.new(:endpoint => "127.0.0.1:3001", :api_key => "dev")
         url = "#{options[:method]}"
         url = "#{options[:id]}/#{options[:method]}" if options[:id]
