@@ -13,8 +13,10 @@ describe LeagueManager::League do
 
     context '#index' do
       it 'fetches all active leagues' do
-        result = LeagueManager::League.get()
-        expect(result.first.name).to eq("Monday")
+        result = LeagueManager::League.get
+        expect(result.first.divisions.size).to eq(2)
+        expect(result.size).to eq(2)
+        expect(result.last.divisions.first.name).to eq("Monday")
       end
     end
 
