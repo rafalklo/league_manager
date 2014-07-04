@@ -8,6 +8,7 @@ require 'league_manager/client'
 require 'league_manager/result_set'
 
 require 'league_manager/base'
+require 'league_manager/content'
 require 'league_manager/division'
 require 'league_manager/gamesheet'
 require 'league_manager/league'

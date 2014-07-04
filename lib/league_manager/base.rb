@@ -2,7 +2,7 @@ module LeagueManager
   class Base
     attr_accessor :base_object
 
-    class << self 
+    class << self
       def get options = {}
         client = LeagueManager::Client.new(:endpoint => "127.0.0.1:3001", :api_key => "dev")
         url = "#{options[:method]}"

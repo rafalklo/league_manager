@@ -64,14 +64,6 @@ describe LeagueManager::Division do
       end
     end
 
-    # context '#index' do
-    #   it 'returns the list of active divisions' do
-    #     result = LeagueManager::Division.get()
-    #     ap result
-    #     expect(result.last.team.name).to eq("UTX Soccer")
-    #   end
-    # end
-
   end
 
 end

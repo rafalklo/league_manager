@@ -25,8 +25,11 @@ module LeagueManager
     end
 
     def self.parse_object data, key
-      eval("LeagueManager::#{key.capitalize}").class.module_eval { attr_accessor key.to_sym }
-      eval("LeagueManager::#{key.capitalize}").new(data[key])
+      mapping = {"info" => "content"}
+      object_name = key
+      object_name = mapping[key] if mapping.include? key
+      eval("LeagueManager::#{object_name.capitalize}").class.module_eval { attr_accessor object_name.to_sym }
+      eval("LeagueManager::#{object_name.capitalize}").new(data[key])
     end
 
   end

@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/infos/?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        ImE0MDgwMDFiNGU1NTU5NGRmOTdlODViMTI1MjFkYTUxIg==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        ZDcxNTVjOGFmOTgwYjZjYWE0YjlkOTczNGJmYjJjMzY=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MC4wODc3MDA=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbiAxLjUuMSBjb2RlbmFtZSBTdHJhaWdodCBSYXpvcg==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvcyI6W3siaW5mbyI6eyJpZCI6MiwidGl0bGVfZW4iOiJCZWdpbm5p
+        bmcgb2Ygc2Vhc29uIiwiYWN0aXZlIjp0cnVlLCJlbiI6IldpbnRlciBzZWFz
+        b24gaXMgc3RhcnRpbmcgYXMgZm9sbG93czogXHJcblxyXG5GcmlkYXkgTGVh
+        Z3VlLCBPY3RvYmVyIDI1dGhcclxuVHVlc2RheSBMZWFndWUsIE9jdG9iZXIg
+        Mjl0aCIsImZyIjoiV2ludGVyIHNlYXNvbiBpcyBzdGFydGluZyBhcyBmb2xs
+        b3dzOiBcclxuXHJcbkZyaWRheSBMZWFndWUsIE9jdG9iZXIgMjV0aFxyXG5U
+        dWVzZGF5IExlYWd1ZSwgT2N0b2JlciAyOXRoIiwidGl0bGVfZnIiOiJCZWdp
+        bm5pbmcgb2Ygc2Vhc29uIn19LHsiaW5mbyI6eyJpZCI6MywidGl0bGVfZW4i
+        OiJQaWNrdXAgc29jY2VyIEVWRVJZIE1PTkRBWSA5OjQ1UE0gQFNvY2NlcnBs
+        ZXhlQ2F0YWxvZ25hIiwiYWN0aXZlIjp0cnVlLCJlbiI6InNlbmQgZW1haWwg
+        dG8gaW5mb0BtdGxzb2NjZXIuY2EgZm9yIG1vcmUgaW5mbyIsImZyIjoiZW52
+        b3lleiB1biBjb3VycmllbCBpbmZvQG10bHNvY2Nlci5jYSBwb3VyIHBsdXMg
+        ZCdpbmZvcm1hdGlvbnMuIiwidGl0bGVfZnIiOiJTb2NjZXIgTGlicmUgQ0hB
+        UVVFIEx1bmRpIDIxOjQ1IEBTb2NjZXJwbGV4ZUNhdGFsb2duYSJ9fSx7Imlu
+        Zm8iOnsiaWQiOjQsInRpdGxlX2VuIjoiSGFwcHkgSG9saWRheXMgISEhISIs
+        ImFjdGl2ZSI6dHJ1ZSwiZW4iOiJTb2NjZXJwbGV4ZSBpcyBjbG9zZWQgb24g
+        dGhlIDI0dGggYW5kIHRoZSAzMXN0LiBOZXh0IEdhbWUgaXMgSmFuIDZ0aCAy
+        MDE0XHJcbllvdSBjYW4gam9pbiB1cyBmb3IgcGlja3VwIHNvY2NlciBvdmVy
+        IHRoZSBob2xpZGF5cyBzZW5kIGFuIGVtYWlsIGluZm9AbXRsc29jY2VyLmNh
+        IGZvciB0aGUgc2NoZWR1bGUiLCJmciI6IkxlIFNvY2NlcnBsZXhlIGVzdCBm
+        ZXJtw4PCqSBsZSAyNCBldCBsZSAzMS4gUHJvY2hhaW4gbWF0Y2ggZXN0IGxl
+        IDYgamFudmllciAyMDE0LlxyXG5Wb3VzIHBvdXZleiBub3VzIHJlam9pbmRy
+        ZSBwb3VyIGxlIFNvY2NlciBMaWJyZSBwZW5kYW50IGxlcyB0ZW1wcyBkZXMg
+        ZmV0ZXMuIEVudm95ZXIgdW4gY291cnJpZWwgaW5mb0BtdGxzb2NjZXIuY2Eg
+        cG91ciBsJ2hvcmFpcmUuIiwidGl0bGVfZnIiOiJKb3lldXNlcyBGZXRlcyAh
+        ISEifX1dfQ==
+    http_version: 
+  recorded_at: Fri, 04 Jul 2014 00:06:45 GMT
+recorded_with: VCR 2.9.2
