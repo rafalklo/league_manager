@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/teams/?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"6577f125c0ae7f7831a4d177253feb28"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6a114385d0b41798dccd8ab62c6dad85
+      X-Runtime:
+      - '0.168543'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"teams":[{"team":{"id":32,"name":"McKibbins","division_name":"Thursday
+        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},{"team":{"id":33,"name":"FC
+        JM","division_name":"Thursday D2","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},{"team":{"id":34,"name":"Boca","division_name":"Thursday
+        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},{"team":{"id":35,"name":"Burgundy
+        Lion FC","division_name":"Thursday D3","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},{"team":{"id":36,"name":"UTX Soccer","division_name":"Thursday
+        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},{"team":{"id":37,"name":"La
+        C de TUMA","division_name":"Thursday D2","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},{"team":{"id":38,"name":"FC Brethren","division_name":"Thursday
+        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},{"team":{"id":39,"name":"AC
+        MAC","division_name":"Thursday D3","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},{"team":{"id":40,"name":"Delta Machine","division_name":"Thursday
+        D3","league_name":"Thursday","season_name":"Summer 2014","active":true}},{"team":{"id":41,"name":"Sincere
+        Apologies","division_name":"Thursday D2","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},{"team":{"id":42,"name":"Cyclone","division_name":"Thursday
+        D3","league_name":"Thursday","season_name":"Summer 2014","active":true}},{"team":{"id":43,"name":"FC
+        boom","division_name":"Thursday D3","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},{"team":{"id":44,"name":"FC montreal","division_name":"Thursday
+        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},{"team":{"id":45,"name":"Los
+        Leones","division_name":"Thursday D3","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},{"team":{"id":46,"name":"Duo Compari","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},{"team":{"id":47,"name":"FC JM","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},{"team":{"id":48,"name":"UTX Soccer","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},{"team":{"id":49,"name":"West Coast Gunners","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},{"team":{"id":50,"name":"AC Liendo","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},{"team":{"id":51,"name":"Athletico Laval","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},{"team":{"id":52,"name":"Delta Machine","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},{"team":{"id":53,"name":"FC united","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},{"team":{"id":54,"name":"FC Lasalle UTD","division_name":"Thursday
+        D3","league_name":"Thursday","season_name":"Summer 2014","active":true}},{"team":{"id":55,"name":"Punjab
+        UTD","division_name":"Thursday D3","league_name":"Thursday","season_name":"Summer
+        2014","active":true}}]}'
+    http_version: 
+  recorded_at: Fri, 04 Jul 2014 00:34:53 GMT
+recorded_with: VCR 2.9.2
