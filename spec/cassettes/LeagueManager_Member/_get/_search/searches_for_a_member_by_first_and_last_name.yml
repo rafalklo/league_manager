@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/members/search?api_key=dev&q=rafal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"05af0398f0e8532d225248d042c42c4c"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 338465514461d0d933150887d3a3eb12
+      X-Runtime:
+      - '0.075223'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"members":[{"member":{"id":5639,"firstname":"Rafal","lastname":"Klodzinski"}}]}'
+    http_version: 
+  recorded_at: Sun, 06 Jul 2014 16:13:00 GMT
+recorded_with: VCR 2.9.2
