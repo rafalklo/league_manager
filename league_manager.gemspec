@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'league_manager/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "league_manager_client"
+  spec.name          = "league_manager"
   spec.version       = LeagueManager::VERSION
   spec.authors       = ["Rafal Klodzinski", "UTX Web Inc."]
   spec.email         = ["rafal@utxsolutions.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Wrapper gem for the UTX League Manager API.}
+  spec.description   = %q{Wrapper gem for the UTX League Manager API.}
   spec.homepage      = "http://www.utxsolutions.com/utx_league_manager"
   spec.license       = "MIT"
 

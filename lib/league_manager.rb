@@ -18,6 +18,7 @@ require 'league_manager/schedule'
 require 'league_manager/standing'
 require 'league_manager/suspension'
 require 'league_manager/team'
+require 'league_manager/test'
 
 module LeagueManager
   extend Configuration

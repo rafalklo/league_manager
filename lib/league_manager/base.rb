@@ -19,26 +19,28 @@ module LeagueManager
     def initialize attrs = {}
       @base_object = attrs
       # Dynamically creating attributes for each LeagueManager::Object
+
       attrs.each_pair do |k, v|
-        self.singleton_class.send(:attr_accessor, k)
+
+        self.class.send(:attr_accessor, k) unless self.public_methods.include? k.to_sym
         if v.class == Array
           # Relation has_many
           #   eg. {:players => [{:player => {:id => 587}}]}
-          send("#{k}=", LeagueManager::ResultSet.parse_hash( {k => v} ) )
+          instance_variable_set("@#{k}", LeagueManager::ResultSet.parse_hash( {k => v} ))
         elsif v.class == Hash
           # Relation has_one 
           #   eg.{:member => {:name => "Rafal Klodzinksi"}}
-          send("#{k}=", LeagueManager::ResultSet.parse_hash( {k => v} ) )
+          instance_variable_set("@#{k}", LeagueManager::ResultSet.parse_hash( {k => v} ))
         else
           # Simple attribute (:id, :name)
           #   eg. {:name => "Rafal Klodzinski"}
-          send("#{k}=", v)
+          instance_variable_set("@#{k}", v)
         end
       end
     end
 
     def to_s
-      @base_object
+      self.base_object
     end
 
   end

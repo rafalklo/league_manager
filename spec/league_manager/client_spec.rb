@@ -24,5 +24,12 @@ describe LeagueManager::Client do
       result = client.get( options )
       expect(result.size).to equal(10)
     end
+
+    it 'should be able to Marshal the result' do
+      client = LeagueManager::Client.new(:endpoint => "127.0.0.1:3001", :api_key => "qwerty")
+      options = {:resource => "divisions/1/top_goalscorers"}
+      result = client.get( options )
+      expect{ Marshal::dump(result) }.not_to raise_error
+    end
   end
 end
