@@ -23,20 +23,36 @@ http_interactions:
       X-Ua-Compatible:
       - IE=Edge
       Etag:
-      - ! '"1a68221fe36013056f4248a6c8d480da"'
+      - ! '"f7f5f24261901c7b12796f4518d12976"'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7ce223f799f3d459bf0c7675ca646299
+      - 8056e87749d542f57935b150dabdcaa0
       X-Runtime:
-      - '0.294528'
+      - '0.261859'
       Connection:
       - close
       Server:
       - thin 1.5.1 codename Straight Razor
     body:
       encoding: US-ASCII
-      string: ! '{"gamesheets":[{"gamesheet":{"id":10594,"player":{"member":{"id":270,"name":"Hennessy,
+      string: ! '{"gamesheets":[{"gamesheet":{"id":10920,"player":{"member":{"id":1688,"name":"Boyer,
+        Christophe"},"team":{"id":32,"name":"McKibbins","division_name":"Thursday
+        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":304,"game_date":"2014-07-10","game_time":"2000-01-01T19:00:00Z"}}},{"gamesheet":{"id":10943,"player":{"member":{"id":3284,"name":"Castano,
+        Julian"},"team":{"id":33,"name":"FC JM","division_name":"Thursday D2","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},"schedule":{"id":305,"game_date":"2014-07-10","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10903,"player":{"member":{"id":5920,"name":"Diakite,
+        Amadou"},"team":{"id":41,"name":"Sincere Apologies","division_name":"Thursday
+        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":304,"game_date":"2014-07-10","game_time":"2000-01-01T19:00:00Z"}}},{"gamesheet":{"id":10965,"player":{"member":{"id":5965,"name":"Haddad,
+        Bech"},"team":{"id":38,"name":"FC Brethren","division_name":"Thursday D2","league_name":"Thursday","season_name":"Summer
+        2014","active":true}},"schedule":{"id":305,"game_date":"2014-07-10","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10892,"player":{"member":{"id":5436,"name":"Remo,
+        LoRusso"},"team":{"id":46,"name":"Duo Compari","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},"schedule":{"id":422,"game_date":"2014-07-07","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10827,"player":{"member":{"id":6065,"name":"Girgis,
+        Robert"},"team":{"id":49,"name":"West Coast Gunners","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},"schedule":{"id":420,"game_date":"2014-07-07","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10846,"player":{"member":{"id":5996,"name":"Cerenzo,
+        Anthony"},"team":{"id":53,"name":"FC united","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},"schedule":{"id":420,"game_date":"2014-07-07","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10674,"player":{"member":{"id":5119,"name":"Cohen,
+        Sahar"},"team":{"id":35,"name":"Burgundy Lion FC","division_name":"Thursday
+        D3","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":358,"game_date":"2014-07-03","game_time":"2000-01-01T21:00:00Z"}}},{"gamesheet":{"id":10594,"player":{"member":{"id":270,"name":"Hennessy,
         Steve"},"team":{"id":32,"name":"McKibbins","division_name":"Thursday D2","league_name":"Thursday","season_name":"Summer
         2014","active":true}},"schedule":{"id":302,"game_date":"2014-07-03","game_time":"2000-01-01T21:00:00Z"}}},{"gamesheet":{"id":10713,"player":{"member":{"id":5907,"name":"De
         Caso, Adrian"},"team":{"id":44,"name":"FC montreal","division_name":"Thursday
@@ -46,27 +62,11 @@ http_interactions:
         Gerardo"},"team":{"id":37,"name":"La C de TUMA","division_name":"Thursday
         D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":301,"game_date":"2014-07-03","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10730,"player":{"member":{"id":5961,"name":"Beaulieu,
         Jonathan"},"team":{"id":38,"name":"FC Brethren","division_name":"Thursday
-        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":303,"game_date":"2014-07-03","game_time":"2000-01-01T22:00:00Z"}}},{"gamesheet":{"id":10674,"player":{"member":{"id":5119,"name":"Cohen,
-        Sahar"},"team":{"id":35,"name":"Burgundy Lion FC","division_name":"Thursday
-        D3","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":358,"game_date":"2014-07-03","game_time":"2000-01-01T21:00:00Z"}}},{"gamesheet":{"id":10468,"player":{"member":{"id":6065,"name":"Girgis,
-        Robert"},"team":{"id":49,"name":"West Coast Gunners","division_name":"Monday","league_name":"Monday","season_name":"Summer
-        2014","active":true}},"schedule":{"id":419,"game_date":"2014-06-30","game_time":"2000-01-01T21:30:00Z"}}},{"gamesheet":{"id":10424,"player":{"member":{"id":1812,"name":"Guzman,
-        Julian"},"team":{"id":47,"name":"FC JM","division_name":"Monday","league_name":"Monday","season_name":"Summer
-        2014","active":true}},"schedule":{"id":418,"game_date":"2014-06-30","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10526,"player":{"member":{"id":5999,"name":"Reatagui,
-        Mike"},"team":{"id":51,"name":"Athletico Laval","division_name":"Monday","league_name":"Monday","season_name":"Summer
-        2014","active":true}},"schedule":{"id":417,"game_date":"2014-06-30","game_time":"2000-01-01T21:30:00Z"}}},{"gamesheet":{"id":10400,"player":{"member":{"id":6029,"name":"Poliemski,
-        Jacub"},"team":{"id":54,"name":"FC Lasalle UTD","division_name":"Thursday
-        D3","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":460,"game_date":"2014-06-30","game_time":"2000-01-01T19:00:00Z"}}},{"gamesheet":{"id":10494,"player":{"member":{"id":5989,"name":"Seif,
-        Bon"},"team":{"id":50,"name":"AC Liendo","division_name":"Monday","league_name":"Monday","season_name":"Summer
-        2014","active":true}},"schedule":{"id":416,"game_date":"2014-06-30","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10445,"player":{"member":{"id":4678,"name":"Amodei,
-        Diego"},"team":{"id":46,"name":"Duo Compari","division_name":"Monday","league_name":"Monday","season_name":"Summer
-        2014","active":true}},"schedule":{"id":419,"game_date":"2014-06-30","game_time":"2000-01-01T21:30:00Z"}}},{"gamesheet":{"id":10410,"player":{"member":{"id":6047,"name":"Singh,
-        Harvinder"},"team":{"id":55,"name":"Punjab UTD","division_name":"Thursday
-        D3","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":460,"game_date":"2014-06-30","game_time":"2000-01-01T19:00:00Z"}}},{"gamesheet":{"id":10516,"player":{"member":{"id":6153,"name":"Saab,
+        D2","league_name":"Thursday","season_name":"Summer 2014","active":true}},"schedule":{"id":303,"game_date":"2014-07-03","game_time":"2000-01-01T22:00:00Z"}}},{"gamesheet":{"id":10516,"player":{"member":{"id":6153,"name":"Saab,
         Rinaldo"},"team":{"id":52,"name":"Delta Machine","division_name":"Monday","league_name":"Monday","season_name":"Summer
-        2014","active":true}},"schedule":{"id":416,"game_date":"2014-06-30","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10152,"player":{"member":{"id":5613,"name":"Lopez,
-        Hernan"},"team":{"id":37,"name":"La C de TUMA","division_name":"Thursday D2","league_name":"Thursday","season_name":"Summer
-        2014","active":true}},"schedule":{"id":296,"game_date":"2014-06-26","game_time":"2000-01-01T19:00:00Z"}}}]}'
+        2014","active":true}},"schedule":{"id":416,"game_date":"2014-06-30","game_time":"2000-01-01T20:00:00Z"}}},{"gamesheet":{"id":10468,"player":{"member":{"id":6065,"name":"Girgis,
+        Robert"},"team":{"id":49,"name":"West Coast Gunners","division_name":"Monday","league_name":"Monday","season_name":"Summer
+        2014","active":true}},"schedule":{"id":419,"game_date":"2014-06-30","game_time":"2000-01-01T21:30:00Z"}}}]}'
     http_version: 
-  recorded_at: Sun, 06 Jul 2014 16:12:59 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:46 GMT
 recorded_with: VCR 2.9.2

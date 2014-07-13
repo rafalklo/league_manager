@@ -4,11 +4,11 @@ module LeagueManager
     VALID_OPTIONS_KEYS    = [:api_key, :format].freeze
     VALID_CONFIG_KEYS     = VALID_CONNECTION_KEYS + VALID_OPTIONS_KEYS
  
-    DEFAULT_ENDPOINT    = 'http://utxleaguemanager.dev/api'
+    DEFAULT_ENDPOINT    = '127.0.0.1:3001'
     DEFAULT_METHOD      = :get
     DEFAULT_USER_AGENT  = "UTX League Manager API Gem #{LeagueManager::VERSION}".freeze
  
-    DEFAULT_API_KEY      = nil
+    DEFAULT_API_KEY      = "dev"
     DEFAULT_FORMAT       = :json
  
     # Build accessor methods for every config options so we can do this, for example:

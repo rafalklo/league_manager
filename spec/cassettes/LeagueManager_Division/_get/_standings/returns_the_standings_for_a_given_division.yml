@@ -27,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d9fa594d779ad4fe5b64be072e7baeb5
+      - 5f687e453491a8a92aee37185e1007d3
       X-Runtime:
-      - '0.361977'
+      - '0.150958'
       Connection:
       - close
       Server:
@@ -43,5 +43,5 @@ http_interactions:
         Jeanne Mance","color":""}}},{"standing":{"position":6,"games":15,"wins":3,"ties":2,"loses":10,"goals_for":34,"goals_against":61,"points":11,"team":{"id":6,"name":"UTX
         Soccer","color":""}}}]}'
     http_version: 
-  recorded_at: Thu, 03 Jul 2014 00:27:15 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:45 GMT
 recorded_with: VCR 2.9.2

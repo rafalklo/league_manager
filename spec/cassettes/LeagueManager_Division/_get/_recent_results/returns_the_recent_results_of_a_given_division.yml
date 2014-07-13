@@ -27,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 25c12c6784407cc50f2e5574df612c52
+      - 47635c9729253825bae5991b852850dc
       X-Runtime:
-      - '0.779238'
+      - '0.458134'
       Connection:
       - close
       Server:
@@ -44,5 +44,5 @@ http_interactions:
         Jeanne Mance","home_score":1,"away_team_name":"AFG","away_score":4,"game_defaulted":false,"game_date":"2013-08-08","home_id":5,"away_id":4}},{"schedule":{"id":113,"home_team_name":"Balkan
         Mtl","home_score":3,"away_team_name":"UTX Soccer","away_score":1,"game_defaulted":false,"game_date":"2013-08-08","home_id":3,"away_id":6}}]}'
     http_version: 
-  recorded_at: Thu, 03 Jul 2014 00:27:15 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:43 GMT
 recorded_with: VCR 2.9.2

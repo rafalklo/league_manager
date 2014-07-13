@@ -27,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fc2bfe89befef8b69dab96e3fb351d89
+      - d36dd11944f7a3291987bdffcf6ff9b7
       X-Runtime:
-      - '0.097373'
+      - '0.085015'
       Connection:
       - close
       Server:
@@ -40,5 +40,5 @@ http_interactions:
         D2","active":true,"schedule_updated_at":null}},{"division":{"id":7,"name":"Thursday
         D3","active":true,"schedule_updated_at":null}}]}},{"league":{"id":4,"name":"Monday","active":true,"divisions":[{"division":{"id":8,"name":"Monday","active":true,"schedule_updated_at":null}}]}}]}'
     http_version: 
-  recorded_at: Thu, 03 Jul 2014 02:34:35 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:46 GMT
 recorded_with: VCR 2.9.2

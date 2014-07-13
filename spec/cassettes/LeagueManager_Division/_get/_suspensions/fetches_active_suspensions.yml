@@ -27,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 96ce4dc9ca7e4c1940b31d1c7b47bbf6
+      - 0af47c10805c2e958db4776fa7dbaae0
       X-Runtime:
-      - '1.684295'
+      - '0.292927'
       Connection:
       - close
       Server:
@@ -41,5 +41,5 @@ http_interactions:
         - Game 4","return_date":null,"return_game":null,"member":{"id":5430,"name":"Mark,
         Ruscitto"},"player":{"team":{"id":11,"name":"Duo Compari"}}}}]}'
     http_version: 
-  recorded_at: Thu, 03 Jul 2014 01:44:01 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:45 GMT
 recorded_with: VCR 2.9.2

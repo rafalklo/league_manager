@@ -27,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6a114385d0b41798dccd8ab62c6dad85
+      - 43d11f6487083734839639886b5b9003
       X-Runtime:
-      - '0.168543'
+      - '0.142126'
       Connection:
       - close
       Server:
@@ -70,5 +70,5 @@ http_interactions:
         UTD","division_name":"Thursday D3","league_name":"Thursday","season_name":"Summer
         2014","active":true}}]}'
     http_version: 
-  recorded_at: Fri, 04 Jul 2014 00:34:53 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:47 GMT
 recorded_with: VCR 2.9.2

@@ -15,7 +15,7 @@ describe LeagueManager::Member do
       it 'fetches all active mvp players' do
         result = LeagueManager::Member.get({:method => :mvp})
         expect(result.size).to eq(15)
-        expect(result.first.player.member.name).to eq("Hennessy, Steve")
+        expect(result.first.player.member.name).to eq("Boyer, Christophe")
       end
 
     end

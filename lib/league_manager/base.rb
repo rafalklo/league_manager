@@ -4,7 +4,7 @@ module LeagueManager
 
     class << self
       def get options = {}
-        client = LeagueManager::Client.new(:endpoint => "127.0.0.1:3001", :api_key => "dev")
+        client = LeagueManager::Client.new
         url = [options[:id], options[:method]].compact.join("/")
         options.except!(:method, :id)
         request_options = {:resource => "#{controller_name}/#{url}", :params => options}

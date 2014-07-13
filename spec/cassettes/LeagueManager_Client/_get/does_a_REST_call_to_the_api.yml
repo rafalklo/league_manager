@@ -27,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - da8550f6b1bb0659be4aebb4a0ee4039
+      - 95d610f81e523623c1cad88edc863532
       X-Runtime:
-      - '1.379699'
+      - '0.230511'
       Connection:
       - close
       Server:
@@ -48,5 +48,5 @@ http_interactions:
         Julian"},"team":{"id":5,"name":"FC Jeanne Mance"}}},{"player":{"id":173,"goals":9,"member":{"id":5551,"name":"Ngom,
         Abib"},"team":{"id":5,"name":"FC Jeanne Mance"}}}]}'
     http_version: 
-  recorded_at: Thu, 03 Jul 2014 00:27:14 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:42 GMT
 recorded_with: VCR 2.9.2

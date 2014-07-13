@@ -27,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4bf9ad75bf0390d29dc2c7d7b8c71467
+      - e8a5acf9cfef77d21b59f6c9692fc97b
       X-Runtime:
-      - '0.519643'
+      - '0.287370'
       Connection:
       - close
       Server:
@@ -41,5 +41,5 @@ http_interactions:
         c de Tuma","home_score":1,"away_team_name":"Balkan Mtl","away_score":2,"game_defaulted":false,"game_date":"2013-08-22","game_time":"2000-01-01T20:00:00Z","home_id":1,"away_id":3,"is_playoffs":true,"playoffs_category":"semi-finals"}},{"schedule":{"id":125,"home_team_name":"AFG","home_score":1,"away_team_name":"Duo
         Compari","away_score":2,"game_defaulted":false,"game_date":"2013-08-22","game_time":"2000-01-01T21:00:00Z","home_id":4,"away_id":11,"is_playoffs":true,"playoffs_category":"semi-finals"}}]}'
     http_version: 
-  recorded_at: Thu, 03 Jul 2014 01:58:13 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:42 GMT
 recorded_with: VCR 2.9.2

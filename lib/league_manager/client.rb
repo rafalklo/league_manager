@@ -18,15 +18,26 @@ module LeagueManager
     end
 
     def get(options = {})
+      result = nil
       begin
-        result  = RestClient.get(build_query_string(options), build_query_params(options[:params]))
-        results = ResultSet.from_json( result )
+        if defined? Rails
+          cache_key = "#{build_query_string(options)}#{build_query_params(options[:params])}"
+          result = Rails.cache.fetch(cache_key, :expires_in => 1.hour) do
+            json  = RestClient.get(build_query_string(options), build_query_params(options[:params]))
+            ResultSet.from_json( json )
+          end
+        else
+          json  = RestClient.get(build_query_string(options), build_query_params(options[:params]))
+          result = ResultSet.from_json( json )
+        end
       rescue NameError => e
-        puts "Missing a model class: #{e}"
+        puts "NameError".green
+        puts "#{e}"
       rescue Exception => e
-        ap e
-        ap "Error"
+        puts "Exception".green
+        puts "#{e}"
       end
+      result
     end
 
     def build_query_string options = {}

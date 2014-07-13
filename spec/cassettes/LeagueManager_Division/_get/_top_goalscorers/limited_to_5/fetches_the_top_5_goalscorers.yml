@@ -27,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5aa54bb0f73ba21e714fbc9aa036818e
+      - c8b1340c90151b150e3039143c14fa52
       X-Runtime:
-      - '0.241932'
+      - '0.216949'
       Connection:
       - close
       Server:
@@ -43,5 +43,5 @@ http_interactions:
         Yosef"},"team":{"id":4,"name":"AFG"}}},{"player":{"id":127,"goals":12,"member":{"id":5503,"name":"Hondres,
         Giancarlo"},"team":{"id":1,"name":"La c de Tuma"}}}]}'
     http_version: 
-  recorded_at: Thu, 03 Jul 2014 02:09:10 GMT
+  recorded_at: Sun, 13 Jul 2014 17:36:46 GMT
 recorded_with: VCR 2.9.2
