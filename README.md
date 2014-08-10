@@ -1,4 +1,4 @@
-## League manager API
+## League manager Client
 
 By [UTX Web](http://www.utxweb.com/).
 

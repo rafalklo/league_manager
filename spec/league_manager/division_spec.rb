@@ -48,6 +48,13 @@ describe LeagueManager::Division do
       end
     end
 
+    context '#upcoming_games' do
+      it 'fetches upcoming games' do
+        result = LeagueManager::Division.get({:method => "upcoming_games", :id => "8"})
+        expect(result.first.home_team_name).to eq("UTX Soccer")
+      end
+    end
+
     context '#top_goalscorers' do
       context 'no limit' do
         it 'fetches the top 10 goalscorers' do

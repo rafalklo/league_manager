@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/divisions/8/upcoming_games?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"bb7568fa6088b6fec633a0a8de5fa3cf"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 36068b9a867c6b1533b08ac11b7a2fe9
+      X-Runtime:
+      - '0.545388'
+      Connection:
+      - close
+      Server:
+      - thin 1.5.1 codename Straight Razor
+    body:
+      encoding: US-ASCII
+      string: ! '{"schedules":[{"schedule":{"id":440,"home_team_name":"UTX Soccer","home_score":null,"away_team_name":"FC
+        united","away_score":null,"game_defaulted":false,"game_date":"2014-08-11","home_id":48,"away_id":53,"game_time":"2000-01-01T20:00:00Z","field_name":"Soccerplexe
+        #1"}},{"schedule":{"id":442,"home_team_name":"FC JM","home_score":null,"away_team_name":"AC
+        Liendo","away_score":null,"game_defaulted":false,"game_date":"2014-08-11","home_id":47,"away_id":50,"game_time":"2000-01-01T20:00:00Z","field_name":"Soccerplexe
+        #2"}},{"schedule":{"id":441,"home_team_name":"Delta Machine","home_score":null,"away_team_name":"West
+        Coast Gunners","away_score":null,"game_defaulted":false,"game_date":"2014-08-11","home_id":52,"away_id":49,"game_time":"2000-01-01T21:30:00Z","field_name":"Soccerplexe
+        #1"}},{"schedule":{"id":443,"home_team_name":"Duo Compari","home_score":null,"away_team_name":"Athletico
+        Laval","away_score":null,"game_defaulted":false,"game_date":"2014-08-11","home_id":46,"away_id":51,"game_time":"2000-01-01T21:30:00Z","field_name":"Soccerplexe
+        #2"}},{"schedule":{"id":444,"home_team_name":"UTX Soccer","home_score":null,"away_team_name":"Delta
+        Machine","away_score":null,"game_defaulted":false,"game_date":"2014-08-18","home_id":48,"away_id":52,"game_time":"2000-01-01T20:00:00Z","field_name":"Soccerplexe
+        #1"}},{"schedule":{"id":446,"home_team_name":"Duo Compari","home_score":null,"away_team_name":"FC
+        JM","away_score":null,"game_defaulted":false,"game_date":"2014-08-18","home_id":46,"away_id":47,"game_time":"2000-01-01T20:00:00Z","field_name":"Soccerplexe
+        #2"}},{"schedule":{"id":445,"home_team_name":"FC united","home_score":null,"away_team_name":"West
+        Coast Gunners","away_score":null,"game_defaulted":false,"game_date":"2014-08-18","home_id":53,"away_id":49,"game_time":"2000-01-01T21:30:00Z","field_name":"Soccerplexe
+        #1"}},{"schedule":{"id":447,"home_team_name":"Athletico Laval","home_score":null,"away_team_name":"AC
+        Liendo","away_score":null,"game_defaulted":false,"game_date":"2014-08-18","home_id":51,"away_id":50,"game_time":"2000-01-01T21:30:00Z","field_name":"Soccerplexe
+        #2"}}]}'
+    http_version: 
+  recorded_at: Sun, 10 Aug 2014 01:32:26 GMT
+recorded_with: VCR 2.9.2
