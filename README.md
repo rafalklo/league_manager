@@ -47,6 +47,7 @@ Division has the following methods available:
 * `standings`
 * `suspensions`
 * `top_goalscorers` - accepts an optional :limit parameter
+* `upcoming_games`
 
 ### LeagueManager::League
 League has the following methods available:
