@@ -9,8 +9,8 @@ describe LeagueManager::Schedule do
     end
 
     it 'returns an array of LeagueManager::Gamesheet' do
-      schedule = LeagueManager::Schedule.new({:gamesheets => [{:gamesheet => {"key" => "value"}}]})
-      expect(schedule.gamesheets.first.key).to eq("value")
+      schedule = LeagueManager::Schedule.new({:gamesheets => [{:gamesheet => {"yellow" => 2}}]})
+      expect(schedule.gamesheets.first.yellow).to eq(2)
     end
   end
 

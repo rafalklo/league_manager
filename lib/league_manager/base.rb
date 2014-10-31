@@ -1,6 +1,7 @@
 module LeagueManager
   class Base
     attr_accessor :base_object
+    attr_reader :id, :name
 
     class << self
       def get options = {}
@@ -22,7 +23,7 @@ module LeagueManager
 
       attrs.each_pair do |k, v|
 
-        self.class.send(:attr_accessor, k) unless self.public_methods.include? k.to_sym
+        # self.class.send(:attr_accessor, k) unless self.public_methods.include? k.to_sym
         if v.class == Array
           # Relation has_many
           #   eg. {:players => [{:player => {:id => 587}}]}

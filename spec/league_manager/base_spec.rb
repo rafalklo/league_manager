@@ -11,21 +11,21 @@ describe LeagueManager::Base do
 
     it 'creates dynamic embedded objects from {:object => {:key => :value}} pairs' do
       attrs = {:member => {:name => "Rafal", :id => 1}}
-      object = LeagueManager::Base.new( attrs )
+      object = LeagueManager::Player.new( attrs )
       expect(object.member.id).to eq(1)
       expect(object.member.name).to eq("Rafal")
     end
 
     it 'creates dynamic array of embedded objects from :objects => [{:object => {:key => :value}}]' do
-      attrs = {:members => [{:member => {:name => "Rafal", :id => 1}}]}
-      object = LeagueManager::Base.new( attrs )
-      expect(object.members.first.id).to eq(1)
-      expect(object.members.first.name).to eq("Rafal")
+      attrs = {:players => [{:player => {:name => "Rafal", :id => 1}}]}
+      object = LeagueManager::Team.new( attrs )
+      expect(object.players.first.id).to eq(1)
+      expect(object.players.first.name).to eq("Rafal")
     end
 
     it 'creates objects recursively' do
       attrs = {:team => {:players => [{:player => {:id => 5, :member => {:name => "Rafal", :id => 1}}}]}}
-      object = LeagueManager::Base.new( attrs )
+      object = LeagueManager::Standing.new( attrs )
       expect(object.team.players.first.member.name).to eq("Rafal")
     end
   end
