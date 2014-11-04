@@ -24,11 +24,11 @@ module LeagueManager
       attrs.each_pair do |k, v|
 
         # self.class.send(:attr_accessor, k) unless self.public_methods.include? k.to_sym
-        unless Rails.env.production?
-          unless self.public_methods.include? k.to_sym
-            puts "Missing Attr: ".red + "#{k}".green + " in #{self.class}".yellow
-          end
-        end
+        # unless Rails.env.production?
+        #   unless self.public_methods.include? k.to_sym
+        #     puts "Missing Attr: ".red + "#{k}".green + " in #{self.class}".yellow
+        #   end
+        # end
         if v.class == Array
           # Relation has_many
           #   eg. {:players => [{:player => {:id => 587}}]}
