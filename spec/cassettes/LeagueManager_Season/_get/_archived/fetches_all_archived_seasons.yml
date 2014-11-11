@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/seasons/archived?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"4b9807c6ff1a641283f6e7be07138438"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9586c4b034a676c33c521f1e8c4db77d
+      X-Runtime:
+      - '0.073273'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: US-ASCII
+      string: ! '{"seasons":[{"season":{"id":1,"name":"Summer 2013","year":"2013","active":false,"archived":true}},{"season":{"id":2,"name":"Winter
+        2013","year":"2013","active":false,"archived":true}},{"season":{"id":3,"name":"Summer
+        2014","year":"2014","active":false,"archived":true}}]}'
+    http_version: 
+  recorded_at: Tue, 11 Nov 2014 02:15:12 GMT
+recorded_with: VCR 2.9.2

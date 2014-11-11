@@ -53,4 +53,7 @@ Division has the following methods available:
 League has the following methods available:
 * `index` - don't specify any params OR :method => ""
 
+### LeagueManager::Season
 
+Season has the following methods available:
+* `archived`
