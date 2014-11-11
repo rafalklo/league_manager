@@ -20,6 +20,15 @@ describe LeagueManager::Season do
       end
     end
 
+    context '#show' do
+      it 'fetches a season with associations' do
+        result = LeagueManager::Season.show( 1 )
+        expect(result.name).to eq("Summer 2013")
+        # expect(result.size).to eq(3)
+        # expect(result.last.name).to eq("Summer 2014")
+      end
+    end
+
   end
 
 end

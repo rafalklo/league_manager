@@ -5,5 +5,9 @@ module LeagueManager
     def self.archived
       get({:method => "archived"})
     end
+
+    def self.show id
+      get({:id => id})
+    end
   end
 end

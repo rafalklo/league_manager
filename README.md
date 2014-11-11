@@ -57,3 +57,4 @@ League has the following methods available:
 
 Season has the following methods available:
 * `archived`
+* `show`

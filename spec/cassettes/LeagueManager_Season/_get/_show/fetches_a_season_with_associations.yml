@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/seasons/1?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - ! '"29e40fb47744a5738d02b77af4848b77"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e1bb8e2148d515ec7dd3495c08b5eccd
+      X-Runtime:
+      - '0.195663'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: US-ASCII
+      string: ! '{"season":{"id":1,"name":"Summer 2013","year":"2013","active":false,"archived":true,"leagues":[{"league":{"id":1,"name":"Thursday","divisions":[{"division":{"id":1,"name":"Division
+        1"}},{"division":{"id":2,"name":"Division 2"}},{"division":{"id":3,"name":"Division
+        3"}}]}}]}}'
+    http_version: 
+  recorded_at: Tue, 11 Nov 2014 02:39:45 GMT
+recorded_with: VCR 2.9.2
