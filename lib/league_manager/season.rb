@@ -1,6 +1,6 @@
 module LeagueManager
   class Season < LeagueManager::Base
-    attr_accessor :id, :name, :year, :active, :archived
+    attr_accessor :id, :name, :year, :active, :archived, :leagues
 
     def self.archived
       get({:method => "archived"})
