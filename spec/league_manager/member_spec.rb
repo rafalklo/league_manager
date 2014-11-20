@@ -29,4 +29,12 @@ describe LeagueManager::Member do
     end
 
   end
+
+  context '#show', :vcr do
+    it 'fetches all the information about a member' do
+      result = LeagueManager::Member.show(2038)
+      expect(result.players.count).to eq(4)
+      expect(result.players.first.team.division.league.season.year.to_i).to eq(2013)
+    end
+  end
 end

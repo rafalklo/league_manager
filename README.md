@@ -58,3 +58,8 @@ League has the following methods available:
 Season has the following methods available:
 * `archived`
 * `show`
+
+### LeagueManager::Member
+
+Member has the following methods available:
+* `show( member_id )`

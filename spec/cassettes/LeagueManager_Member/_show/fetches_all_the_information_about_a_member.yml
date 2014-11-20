@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/members/2038?api_key=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        Ijk0NzYwNmFhYzQ1MjZiYzkxMGFjNzFkNTU2NGUyNGY1Ig==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        MzhlYWI4YWY2MTcwZTkxZGUyY2Y2MjQwMTM0ZDY2YjI=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MS43MTg3NzA=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbg==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAKmfbFQAA6SUyW7CMBCGXyXyOYdspCXHgnpDQoIuUlUhkwxg1U4ixwFF
+        iHevA8FxFsrSnGbG45mxv/zeIwZsCRwFe0QiFDiW+2yiFeGZiDEDFKDphlCS
+        poBMRLGKTiCOCAiBZbgdMg1tT0pxATxDwde+slUr10TrBFO5ZlvSlFVK0zNR
+        AZQmO+nIcJTkSwoLPcQhOhlsmy7wDvPKFYDZubivxnqbfxqzJAxlYxOFCU3k
+        AEiaEdmSjCTxosobV75hlycFvM7hvDTf5DyLcCEXMsBZvWeWMwbccCzb1Sqe
+        Z7DVDD21u0mdLt2UZr8CcHmWysOhIFuZtJI3CtLl4Ub6crvgORyOn9lGMBj4
+        NYNBzcDRGNi3M3CaDNx68Mn7VLv9F4rDnzsR5NBL4IPE4jIB7xYCTk2g1aSb
+        0Wz3fwBPviYCWwEYPqaB9v1fEcElDOcf0Rg7j0jB6wHhd/5yvbga+LoW3B4t
+        eA0U3oMobMd1FIv6PbL+RmHf+Bx5DRSvoxpDnFPaZTBKWAqCHI9xvxb6EAzV
+        BH211YtwVQxejxguEygvXAdwJHIi8H04/AIAAP//AwDyiePafgYAAA==
+    http_version: 
+  recorded_at: Wed, 19 Nov 2014 13:48:25 GMT
+recorded_with: VCR 2.9.2
