@@ -16,32 +16,53 @@ http_interactions:
   response:
     status:
       code: 200
-      message: OK
+      message: !binary |-
+        T0s=
     headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      X-Ua-Compatible:
-      - IE=Edge
-      Etag:
-      - ! '"6ae4e01166641300450332612aecaf5f"'
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 5f687e453491a8a92aee37185e1007d3
-      X-Runtime:
-      - '0.150958'
-      Connection:
-      - close
-      Server:
-      - thin 1.5.1 codename Straight Razor
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IjdmOTQ1OTIzYzY4ZTYyMzM2NmM4YWNjM2RlZTMyNmU3Ig==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        YzU2Yzc3YTVkOTRlM2UyZDJhOGE5ZmQyZGY2OGFkMjM=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MC45NjkwNzM=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbg==
     body:
-      encoding: US-ASCII
-      string: ! '{"standings":[{"standing":{"position":1,"games":15,"wins":10,"ties":5,"loses":0,"goals_for":59,"goals_against":22,"points":35,"team":{"id":4,"name":"AFG","color":""}}},{"standing":{"position":2,"games":15,"wins":8,"ties":2,"loses":5,"goals_for":38,"goals_against":41,"points":26,"team":{"id":3,"name":"Balkan
-        Mtl","color":""}}},{"standing":{"position":3,"games":15,"wins":7,"ties":3,"loses":5,"goals_for":53,"goals_against":40,"points":24,"team":{"id":1,"name":"La
-        c de Tuma","color":""}}},{"standing":{"position":4,"games":15,"wins":5,"ties":2,"loses":8,"goals_for":36,"goals_against":42,"points":17,"team":{"id":11,"name":"Duo
-        Compari","color":""}}},{"standing":{"position":5,"games":15,"wins":4,"ties":3,"loses":8,"goals_for":42,"goals_against":52,"points":15,"team":{"id":5,"name":"FC
-        Jeanne Mance","color":""}}},{"standing":{"position":6,"games":15,"wins":3,"ties":2,"loses":10,"goals_for":34,"goals_against":61,"points":11,"team":{"id":6,"name":"UTX
-        Soccer","color":""}}}]}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAIB9dlQAA6zUXWuDMBQG4L8iuVYwRm3n3T7oYLirdWwwhmSaSlhMitGN
+        Ufrfl1BqjZpix/DGnOZY8vDm7IBsMC8oLyVI3nbdCiQ7sBWSNlRwkEAXlLgi
+        aguMXPBNuX7zXdBQXVMlJqR+U6VSYCazjahV/eq4xCVWPQ1IgsBVn6W8UZuR
+        6tuyVmYV5a1eL/Qa/5BaZj+EMfEts1y0XLXFp19qUnRl/1QuRPvByLBPbWBY
+        NtmGfhGQgBdPP2vvBajGmnxRof7dOGVDcKWPTguQhC7g6tCq73p1rzpywfSp
+        ANjv965NKpiQWh6hgg4qMqDQcgQVwhNUEJtQHrJChX+EgiZU6h0eCxQyoVAH
+        dYPZJ+bOY8PmeqEJr8XRC1m8IjT28nteoekF7V5X/xOs9HywAtMLdl4pdnKn
+        IM66rfBcsXBCLBonbGkmLB6L9a4iXAwSFlvFIJwmCy6MmAZLFVk6TRYOyE5m
+        d61wbkW1xTWdSxZNkIXjkJlk2mdAFvXJBtPLg77VDP3PrTyQpTayyCSLOrHV
+        rfNAMOfEecQ8J3PV4gk1NA4aNIc+CkdscW+WHeLTYwvsU9+StMunfnrucsYm
+        W9yxPa9fnSeR56QeiL3vfwEAAP//AwCex+hyNgcAAA==
     http_version: 
-  recorded_at: Sun, 13 Jul 2014 17:36:45 GMT
+  recorded_at: Thu, 27 Nov 2014 01:25:20 GMT
 recorded_with: VCR 2.9.2

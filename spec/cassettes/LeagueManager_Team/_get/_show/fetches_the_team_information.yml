@@ -16,46 +16,59 @@ http_interactions:
   response:
     status:
       code: 200
-      message: OK
+      message: !binary |-
+        T0s=
     headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      X-Ua-Compatible:
-      - IE=Edge
-      Etag:
-      - ! '"3c592b5a31f711804259b42252a02cfe"'
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - d867a8a2f279573e28990b5614aece62
-      X-Runtime:
-      - '0.327047'
-      Connection:
-      - close
-      Server:
-      - thin 1.5.1 codename Straight Razor
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        ImU2YWVlYTM1OTBhMzlhNjY2Mjg0NWYwYWVjMjFjODJlIg==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        NTIzOGQxZWZhYWZjODM3ODcwYzlhMGQ0OTBjNDExZGQ=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MS42NDMwMjc=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbg==
     body:
-      encoding: US-ASCII
-      string: ! '{"team":{"id":32,"name":"McKibbins","division_name":"Thursday D2","league_name":"Thursday","season_name":"Summer
-        2014","active":true,"players":[{"player":{"id":627,"goals":0,"games":5,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":1687,"name":"Barbosa,
-        Fernando"}}},{"player":{"id":628,"goals":3,"games":5,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":261,"name":"Bousser,
-        Etienne"}}},{"player":{"id":629,"goals":0,"games":3,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":3096,"name":"Bouvier,
-        Jean-Francois"}}},{"player":{"id":630,"goals":8,"games":5,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":1,"member":{"id":1688,"name":"Boyer,
-        Christophe"}}},{"player":{"id":890,"goals":4,"games":3,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":3942,"name":"Cherif,
-        Sofian"}}},{"player":{"id":631,"goals":0,"games":3,"yellows":1,"double_yellows":0,"reds":1,"mvp_awards":0,"member":{"id":5018,"name":"Demers,
-        Jason"}}},{"player":{"id":985,"goals":0,"games":2,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":6118,"name":"Flaco,
-        Andres"}}},{"player":{"id":984,"goals":2,"games":1,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":1,"member":{"id":5797,"name":"Gaskell,
-        Shane"}}},{"player":{"id":632,"goals":2,"games":3,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":1,"member":{"id":270,"name":"Hennessy,
-        Steve"}}},{"player":{"id":633,"goals":2,"games":3,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":5899,"name":"Hurtado,
-        Alexis"}}},{"player":{"id":634,"goals":0,"games":6,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":258,"name":"Konowalchuk,
-        Wade"}}},{"player":{"id":1012,"goals":2,"games":1,"yellows":1,"double_yellows":0,"reds":0,"mvp_awards":1,"member":{"id":6141,"name":"Laprairie,
-        Joe"}}},{"player":{"id":891,"goals":0,"games":1,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":1592,"name":"Ramoutar,
-        Russell"}}},{"player":{"id":635,"goals":0,"games":3,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":3146,"name":"Sanchez,
-        Bruce"}}},{"player":{"id":636,"goals":1,"games":4,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":1055,"name":"Savard,
-        Jason"}}},{"player":{"id":637,"goals":0,"games":5,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":3188,"name":"Sibanda,
-        Behkiwe"}}},{"player":{"id":638,"goals":0,"games":1,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":1060,"name":"Sinnig,
-        Daniel"}}},{"player":{"id":639,"goals":2,"games":5,"yellows":0,"double_yellows":0,"reds":0,"mvp_awards":0,"member":{"id":1696,"name":"Verdeja,
-        Andres"}}}]}}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAHh8dlQAA7SWW2+bMBSA/wryM5EwtwBva7tuWruXZlofpgmdBCd4BTuy
+        IVlW5b/vECWYNrBqC3tAss/x5eNc/UwqBiVJngnPSOK5NhFQMpKQz4s7Pp9z
+        oYlNMr7hmkuRHnVf8lrpDHbWjYvagsGqZq91qNAMtNk0q8uSKct1qI86WFR8
+        g+JK1QxXViAyLlYNx1pqXuFlJAlsslZsw2Wt0xfSFZ6oSUJDm2wbwgQHFW9E
+        yF9I3YwiXCah0OlSKlwQnKawAtxSoQhXrCUXVbPNwXGB15Rc1DifeM0cdkzp
+        dMeKQm51upC1qA5XnTSKZa2YGnEm63nBXu/DGwrQVbo8/DZ5nNxPmu8L2bc7
+        SfLt+Tg+OSR0p0dwkvjmxxHvePzh4Jc3HkQN22FQbtYpbEGdpqycm+NpGE1b
+        j1+BmksNtnXLlEB/SLLf7+1zoqgl8gyROxKRG1IDhI7XTNnWe3SuEGyAJ255
+        aMsTd3DoBTieE4ddng1veD4xEJNbBWIhue6n8hxDFVxsJrfHcVGHa9dQXeeK
+        60qu835DRbHTE0r+SH7zYt/UjuucKb60rZlcchADBqIXuI2+QRM41JjnhmHd
+        0ei1phr1wsRR0MI4LcxYSRbSDsxtAQtpW+9Eplh/6MSR38K4JnL+DYaeWWYa
+        m4z/APoJT0BH5TCUXk1LONJEl6bXWRi7U6eF+dikuNY7pKnYZojG64nhcKRk
+        D6I4Nji1qiBrXFWwn4NZ7vfEzXi1MDBxcyeF3EKxyOsn23qErN8+1KHuG8Hz
+        FwY6C56Q+qY638NaAVecYWbJoZJD++wzVvMKYlNyHqCUdQVYBh+aplEUAw77
+        n4nuUd80ixl2h5z9sq0rVS+GojnsieZ4LPM4QdCh2eCyP9XA0Ot9aYxVdzza
+        aVgzPsf3Bb40rlj+xLdD1ol6gKajWSd0OjxC8JVt3YDgbChy4r5njzNS6aFh
+        553xlamM/YBul/i+3/8GAAD//wMAhfJ7hKoLAAA=
     http_version: 
-  recorded_at: Sun, 13 Jul 2014 17:36:48 GMT
+  recorded_at: Thu, 27 Nov 2014 01:20:56 GMT
 recorded_with: VCR 2.9.2

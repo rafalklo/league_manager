@@ -29,6 +29,7 @@ describe LeagueManager::Team do
       it 'fetches the team information' do
         result = LeagueManager::Team.get({:id => 32})
         expect(result.players.size).to eq(18)
+        expect(result.standing.position).to eq(5)
       end
     end
 

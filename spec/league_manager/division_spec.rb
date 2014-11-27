@@ -38,6 +38,8 @@ describe LeagueManager::Division do
       it 'returns the standings for a given division' do
         result = LeagueManager::Division.get({:method => "standings", :id => "1"})
         expect(result.last.team.name).to eq("UTX Soccer")
+        expect(result.last.position).to eq(6)
+        expect(result.last.previous_position).to eq(6)
       end
     end
 
