@@ -53,13 +53,19 @@ Division has the following methods available:
 League has the following methods available:
 * `index` - don't specify any params OR :method => ""
 
-### LeagueManager::Season
-
-Season has the following methods available:
-* `archived`
-* `show`
-
 ### LeagueManager::Member
 
 Member has the following methods available:
 * `show( member_id )`
+
+### LeagueManager::Search
+
+Search has the following methods available:
+* `members( query )`
+* `teams( query )`
+
+### LeagueManager::Season
+
+Season has the following methods available:
+* `archived`
+* `show( season_id )`

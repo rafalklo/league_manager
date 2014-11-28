@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/searches/members?api_key=dev&q=raf
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IjA2ODQ0MmJjOTFlOTc5OTZlODg4OTU4Njg4YmEwM2RiIg==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        MTkwMWMzNWQwODJjOGUwMTY2NGIwYzdmZGRiNWI0MGI=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MS42Mjk2NTU=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbg==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAMzWd1QAA+SXXW+bMBSG/wriOki2MZBw1y6qprWRpibTJk1V5ILbeAXc
+        8pEpifrfZ74hdhKatleremEfjP3kfc3x8U4PaXhP40R3f++qtu7udObrrmna
+        I/2BxUkakZDqrn5LHggN9JEekCZ2EfMsZVnESCQeyMGR1rzlxZSk1F+SVAxB
+        AEIDAgOBBUKuBcVqBsAuAGLgc0A2JdLd6+tIwgITIHH1oaY8TniLU3QLEAUF
+        MgAyEFog4GLgmtAA1jAKcyxR5D+U9lGuYpIkNE1Zi9OECqT6HSUXMBdw4gLH
+        xYO5xhBJXOJBD+prlhAWdZCqQAFUDFbQ2AYY516Z2DXRYK/Q5PQe+ka8l4yn
+        LU4VOLJ3SnWEa9BF4zeo45im7Brr41yTLYn8P70d3cZK05iayTJMkDPBfEsP
+        1MiyTYVGexJdB9zfsih56pjWxkqhVDqZhW9OvrvFRsIqpl3VrnmQLT6vR04C
+        8TBvicVES2yqDQ0C/reM+jy7D+iyG4qpXzbC9fOS/CVx1U0pCeu57Qb+x+KX
+        NueeJ9YV1DzgYn1dNH22Zgnj0bL+dqu+BnNBKHnMaP1oscrixCcb8SChJGnf
+        mWdhSGMt//mdGWsG2OYFeW55kLSKPKS/3oaSuBJf9IiXsrUYJOxJqOjG3kr0
+        xetpnNHX4m+074BlYYUD8EMcQOZxC27Y4yrVLoOMvtGMjCq9+Mmi9LAXeIgX
+        qPVibxF5RH+591sxse3GCvjBVlgt9pQGKdFmRBBFtOPGAR9mPCpl6HvQhA99
+        DlhhwbiB2JtV9mhv/iapKj4E3FMfn6k+hGabi6xGfvM8+WFffvNEMroMiPek
+        EL9OCNoUnZOSVB7YUrbpTi7rfDAnfaYV+POSko17Vlx9GWDDu3KRyoTJkFxk
+        ncxFWJGLDluQK951oLCktEBVK0BgK6q7fqkwI/4Dz7rVXR0py7uDlbidVwnA
+        FkXbwMoFY8c5Xd3NyHZLeZcm7x+t7XKa8QKMXeS41tB7AYbO3n1lviKxLA9f
+        JTTs4BT9kdYOVtR1TnFDgC6YuAgP5UFA9or0Yb6Tl0zcBGiLU0dKfQ7STBYQ
+        5zR4PJTGgXuV75RqN2zb52k86fVHWjNW4ZWoKeECgILGGUhjA1u+w0k7Z04C
+        UXbHLU4VOLJ3cFHvTgoeW12DS0c8UJ0xsHvIwPPP+LZKvEhXAU2Zx7Ubsi6L
+        9SrF3VL//znk7/L/fwAAAP//AwDohoV9dxAAAA==
+    http_version: 
+  recorded_at: Fri, 28 Nov 2014 01:58:36 GMT
+recorded_with: VCR 2.9.2

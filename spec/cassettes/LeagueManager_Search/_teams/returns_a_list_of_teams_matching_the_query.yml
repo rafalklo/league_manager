@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/searches/teams?api_key=dev&q=fc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IjgxNTkyN2I2ZjU0YmU1YTdhOTQ1ZmJkNTdmZjA3OTgwIg==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        ZjBjNGNjNjE1NjNkYTUyZTkwOWJlYmMxM2M0ZjEzMzI=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MC4yNjA5MzI=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbg==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAMzWd1QAA+yYXW/aMBSG/0rkay4aO0DLJUWdtBVNWmCdNE2TR87AUuJM
+        dlwJof73BQYxxladolCGCFeJ7fgcPbzv8ccKFUAziQbfV5snNFghlqBB97aD
+        OM0ADdCQ8vlQ5DJ4uEcdlLBnJlnOf257R9v3ICw7U6BzBbuuiQKZ0GXZLoFK
+        /ckT4wWIAN+EUdlHZwV7LpsLoUBPv8vjrkrDEahKthp0GHI3IqpGmMGXQEXZ
+        6EyFitmifC2//k1TCS/rX8ekRHTkoRJzxZNl8LjO0YlqslBinV0wIjarbZ8F
+        K1ZZVhdWX3NwhKqStkZZuPQQM7wb1wbPPq91di5ckZ734T74ledZS8mm1Lvb
+        pzR0U6rcgE9iuzC0fYf/H9+FkYFIQLEQwF/DdJSWiJcTsTHZUgr9UgodUiIG
+        J3KMlMhtTU7aCQ49NWG6nsN0tqDOZzpsmO4DVWnOZNO+8+upW8d22Gs77LBd
+        A3Lq7jP6CJRzCMaUz+CN+4ImnOcoUPbG4HzOw9hgNW565+QHFNUBdDYpEeLl
+        c/U1Kep7GY1z/i8hE0/VfDwcvXIcxLD1dRDtxFS6xtr/SCVNUwimk1G7l3RI
+        yICV5bwQQNPWbI6CHe6TGn/53C7+B74zKrbirChHtxXJKAIlmK+UJ5BugreH
+        EfPQpv/AT69fJV2jvfrklHQu/sSPb6p5d0t+89eRl76pxroSxX9yUTA+91C6
+        Sqfpo34cx+2ttn0BqcFPN8v8CUR08QWpp+edTr61KrIB6chPPpc5NkRNKAjX
+        2RC9H6AfL38BAAD//wMAlT3CDm4bAAA=
+    http_version: 
+  recorded_at: Fri, 28 Nov 2014 01:58:36 GMT
+recorded_with: VCR 2.9.2
