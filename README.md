@@ -41,12 +41,14 @@ The API is called using the following format
 ### LeagueManager::Division
 
 Division has the following methods available:
+* `goalie_most_shutouts( id, limit = 10)`
 * `playoffs_results`
 * `recent_results`
 * `recent_results_with_stats`
 * `standings`
 * `suspensions`
-* `top_goalscorers` - accepts an optional :limit parameter
+* `top_goalkeepers( id, limit = 10)`
+* `top_goalscorers( id, limit = 10)`
 * `upcoming_games`
 
 ### LeagueManager::League
