@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/divisions/9/goalie_most_shutouts?api_key=dev&limit=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IjlmNGMxY2Y0ZDdjNjVmNTU5ZDY5MmYzMjdiZTdiOWI0Ig==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        ZWVkNzZmNmIxN2U1NTkxMjIwYmQzMTNiM2YzYmYzNjM=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MC4yMDI4ODE=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbg==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAN0yelQAA0SLMQvCMBQG/0r55jdUU4pkE1edHKXI0z7aYJOITQcJ77+b
+        Qet2HHcZz4nf8pphL/nLsBmuh92YZkcYIk9OrgN7KZFZxTwuKS6puJrgxd/+
+        47Y2LSGUAxYnvo/uwVSdhQOUkIT9r2zN2u0P1dFJ6CNUtdMPAAAA//8DAAB/
+        cLWZAAAA
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 20:55:57 GMT
+recorded_with: VCR 2.9.2

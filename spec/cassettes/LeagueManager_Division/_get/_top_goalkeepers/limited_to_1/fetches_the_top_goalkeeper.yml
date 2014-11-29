@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/divisions/9/top_goalkeepers?api_key=dev&limit=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IjJlNzA2MmQyZmU0MjY2ZDZjOTk1NmM4M2NlYTcwMjI1Ig==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        MzNkY2ZkMzE1ODEzOTcxMGU0NTg1OTRhY2EyNzg5ODk=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MC4yNjgyMTA=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbg==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIANwyelQAA2yNwQrCMBBEf6XMOUhtSpHcxKs9eRQpq13aYJNIkwpS8u9G
+        0PbiaZaZNzszHgO9ePRQ5/l7Q83QLdRWljuBztGgufmIb6gjbX1IWbEmZDjV
+        5X+0oSeP1DFUuckXxPdTcFNIteQZNtd1tchlJWDTUyjUdOv1nUR2YrKIAoHJ
+        /MhKLtz+kB0129YhxniJbwAAAP//AwATrpuC1gAAAA==
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 20:55:56 GMT
+recorded_with: VCR 2.9.2

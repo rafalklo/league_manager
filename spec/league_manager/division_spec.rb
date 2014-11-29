@@ -73,6 +73,38 @@ describe LeagueManager::Division do
       end
     end
 
+    context '#top_goalkeepers' do
+      context 'no limit' do
+        it 'fetches the top 10 goalkeepers' do
+          result = LeagueManager::Division.top_goalkeepers(9)
+          expect(result.first.member.name).to eq("Machika, Sean")
+        end
+      end
+
+      context 'limited to 1' do
+        it 'fetches the top goalkeeper' do
+          result = LeagueManager::Division.top_goalkeepers(9, 1)
+          expect(result.size).to eq(1)
+        end
+      end
+    end
+
+    context '#goalie_most_shutouts' do
+      context 'no limit' do
+        it 'fetches the top 10 goalies ordered by shutouts' do
+          result = LeagueManager::Division.goalie_most_shutouts(9)
+          expect(result.first.member.name).to eq("Machika, Sean")
+        end
+      end
+
+      context 'limited to 1' do
+        it 'fetches the top goalie ordered by shutouts' do
+          result = LeagueManager::Division.goalie_most_shutouts(9, 1)
+          expect(result.size).to eq(1)
+        end
+      end
+    end
+
   end
 
 end
