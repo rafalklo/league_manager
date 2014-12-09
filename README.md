@@ -42,6 +42,9 @@ The API is called using the following format
 
 Division has the following methods available:
 * `goalie_most_shutouts( id, limit = 10)`
+* `most_goals( id, limit = 10)`
+* `most_assists( id, limit = 10)`
+* `most_points( id, limit = 10)`
 * `playoffs_results`
 * `recent_results`
 * `recent_results_with_stats`
