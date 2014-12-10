@@ -3,7 +3,7 @@ module LeagueManager
     attr_reader :active, :schedule_updated_at, :league
 
     def self.top_goalkeepers( id, limit = 10 )
-      get({:method => "most_goals", :id => id, :limit => limit})
+      get({:method => "top_goalkeepers", :id => id, :limit => limit})
     end
 
     def self.goalie_most_shutouts( id, limit = 10 )
