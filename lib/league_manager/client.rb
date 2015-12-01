@@ -21,6 +21,7 @@ module LeagueManager
       result = nil
       begin
         json  = RestClient.get(build_query_string(options), build_query_params(options[:params]))
+        ap json
         result = ResultSet.from_json( json )
       rescue NameError => e
         puts "NameError".green

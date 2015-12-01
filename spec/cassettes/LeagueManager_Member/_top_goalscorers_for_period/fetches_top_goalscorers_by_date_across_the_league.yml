@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3001/api/members/top_goalscorers_for_period?api_key=dev&end_date=2011-11-17&start_date=2011-11-03
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IjFhZTQyMjU5YjM5OGFhODJiZThmODI5NTRiNTAwNWIwIg==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        ZDg1YjQ5ZWYyMWY1ZGU3MzlhNTRkMGZlMjc2NmU0MzM=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MC4yMjk2Mzk=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "U2VydmVy":
+      - !binary |-
+        dGhpbg==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAOEUXVYAA4zQMQqAMAwF0LtkdrBpTdNeRUQURQRF0LHk7jq4RFpwC58H
+        P0mCfd7H+bwgtumdISZYjmF7MmOrN+zXCSLWlkWqHDQKMlHeBcWMDTbvWDs2
+        vxwiF3q1c1w4wytGLvxhiL7gSLnGF5ajz1PQiXRyAwAA//8DAE93oZ2bAQAA
+    http_version: 
+  recorded_at: Tue, 01 Dec 2015 03:32:49 GMT
+recorded_with: VCR 2.9.2

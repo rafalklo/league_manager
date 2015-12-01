@@ -30,6 +30,13 @@ describe LeagueManager::Member do
 
   end
 
+  context '#top_goalscorers_for_period' do
+    it 'fetches top goalscorers by date across the league', :vcr do
+      result = LeagueManager::Member.get({:method => :top_goalscorers_for_period, :start_date => "2011-11-03", :end_date => "2011-11-17"})
+      ap result
+    end
+  end
+
   context '#show', :vcr do
     it 'fetches all the information about a member' do
       result = LeagueManager::Member.show(2038)
