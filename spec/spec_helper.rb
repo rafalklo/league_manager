@@ -1,9 +1,9 @@
 require 'bundler/setup'
 Bundler.setup
 
-require "codeclimate-test-reporter"
+#require "codeclimate-test-reporter"
 # ENV['CODECLIMATE_REPO_TOKEN'] = "203e7217f95eb57beb64e1c1fd42ac3a379c0f388561387221f0af9799d249f4"
-CodeClimate::TestReporter.start
+#CodeClimate::TestReporter.start
 
 require 'league_manager'
 require 'awesome_print'
